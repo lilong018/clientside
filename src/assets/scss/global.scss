@@ -1,0 +1,15 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
+@import '../../../node_modules/bootstrap-steps/scss/bootstrap-steps.scss';
+
+//ag-grid表格樣式
+@import "../../../node_modules/ag-grid-community/dist/styles/ag-grid.css";
+@import "../../../node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+// @import '_bootstrap-steps_variables.scss';
+@import '_fa-fonts.scss';
+@import '_styles.scss';
+@import '_forms.scss';
+@import '_ag-grid.scss';
+@import '_rwd.scss';
+@import '_background.scss';

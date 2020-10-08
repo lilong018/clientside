@@ -1,0 +1,248 @@
+html {
+  background: #000;
+}
+
+body {
+  font-size: 14px;
+}
+
+.vsc-initialized {
+  background: #000;
+}
+
+a {
+  font-weight: bold;
+  color: $gold;
+
+  &.router-link-exact-active {
+    color: $gold;
+  }
+}
+
+.router-link-exact-active {
+  color: $gold;
+}
+
+a {
+  font-weight: normal;
+  color: $gold-dark;
+
+  &.router-link-exact-active {
+    color: $gold-dark;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.dark-mask {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  background: #000;
+}
+
+//告示板
+.huge-panel {
+  background: $huge-panel-bg;
+  color: $huge-panel-text;
+  padding: 50px 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .title {
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+.card-text {
+  color: $panel-text;
+}
+.card-depth-bg {
+  background: rgb(255, 255, 255, 0.2);
+  .card-title.card-text {
+    color: #fff;
+  }
+}
+
+//白版
+.panel-simple {
+  background: $panel-bg;
+  padding: 30px;
+  width: 340px;
+  margin: 0 auto;
+  display: block;
+
+  .title {
+    color: $title-color;
+    font-weight: 300;
+  }
+}
+
+.btn-width-lg {
+  width: 190px;
+}
+
+.btn {
+  text-decoration: none !important;
+}
+
+.bg {
+  padding-bottom: 20px;
+}
+
+.content-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+//modal
+.modal-footer {
+  justify-content: center;
+  padding: 10px;
+}
+.modal-footer.inside {
+  margin-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: -15px;
+}
+
+//溫馨提示
+.friendly-reminder {
+  color: $friendly;
+  font-size: 14px;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid $gold-dark;
+
+  .friendly-reminder__title {
+    display: flex;
+
+    .solid-line {
+      height: 1px;
+      width: 100%;
+      flex: auto;
+      margin-top: 10px;
+      background: $gold-dark;
+      text-align: center;
+    }
+
+    span {
+      flex-basis: 160px;
+      text-align: center;
+    }
+
+    svg {
+      vertical-align: baseline;
+      margin-right: 10px;
+    }
+  }
+}
+
+//header
+.icon-header-person {
+  color: $gold;
+}
+
+//main-card
+.card-text {
+  color: $title-color;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+//tabs
+.tabs {
+  background: #fff;
+}
+.nav.nav-tabs {
+  background: #eaeaea;
+}
+.active-nav-item-class {
+  background: #000;
+}
+.active-tab-class {
+  background: #fff;
+  padding: 15px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #000;
+}
+
+// bootstrap-step
+.steps-box {
+  padding: 50px 20px;
+}
+
+.step-text {
+  color: #000 !important;
+}
+
+.step-active .step-circle {
+  color: #000 !important;
+  border-color: $gold !important;
+}
+
+.step-circle {
+  border-color: #eaeaea !important;
+  background: #eaeaea;
+  color: #9a9a9a !important;
+}
+
+.step-circle::before,
+.step-circle::after {
+  color: #eee;
+}
+
+// 上傳樣式
+.upload-area__wrapper {
+  .upload-box {
+    margin-right: 8px;
+  }
+
+  .upload-box,
+  .btn-small {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.upload-box {
+  width: 280px;
+  min-height: 80px;
+  display: block;
+  padding: 15px;
+  background: $gold-lighter;
+  text-align: center;
+  border: 1.8px dashed $gold-dark;
+  border-radius: 8px;
+  margin: 15px 0;
+  cursor: pointer;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .upload-ico {
+    color: $gold-dark;
+    font-size: 40px;
+  }
+}
